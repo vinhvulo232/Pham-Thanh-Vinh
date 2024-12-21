@@ -1,0 +1,24 @@
+<html> 
+<head> 
+<script> 
+
+function changeImage2()
+{
+var img = document.getElementById("image");
+img.src="Beheading.jpg";
+return false;
+}
+function changeImage1(){
+	var img = document.getElementById("image");
+	img.src="logo.jpg";
+	return true;
+}
+</script>
+
+</head>
+<body>
+<img id="image" src="logo.jpg" />
+<br><br><br>
+<button id="clickme" onclick="changeImage1();">Click to change image!</button>
+</body>
+</html>
